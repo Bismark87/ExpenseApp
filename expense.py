@@ -3,8 +3,6 @@
 from datetime 
 import datetime
 
-
-
 def add_expense():
 print("\nadd new expense")
       
@@ -14,7 +12,7 @@ print("\nadd new expense")
            datetime.strptime(expense_date, "%Y-%m-%d")
             break
           except ValueError:
-      print("wrong date. please try again.")
+      print("wrong date. please try this again.")
 
      category = input("Enter category: ")
       while category == "":
@@ -24,7 +22,7 @@ print("\nadd new expense")
       description = input("enter description: ")
      while True:
            try:
-         amount = float(input("Enter amount: "))
+         amount = float(input("enter amount: "))
            if amount > 0:
            break
            else:
@@ -59,5 +57,5 @@ def print_expenses(expenses):
             total = total + expense["amount"]
 
         print("\n--------------------")
-         print("total Amount: $", format(total, ".2f"))
-       print("total Expenses:", len(expenses))
+         print("total amount: $", format(total, ".2f"))
+       print("total expenses:", len(expenses))

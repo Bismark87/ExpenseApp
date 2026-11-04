@@ -1,4 +1,5 @@
 
+
 from datetime 
 import datetime
 
@@ -47,7 +48,6 @@ def filter_expenses(expenses, start_date, end_date, category):
                 category_is_correct = False
 
         if date_is_correct and category_is_correct:
-
-            results.append(expense)
+          results.append(expense)
 
     return results
