@@ -30,3 +30,9 @@ while True:
     print("7. exit")
 
     print("====")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "1":
+        new_expense = add_expense()
+        expenses.append(new_expense)
