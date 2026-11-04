@@ -1,1 +1,1 @@
-Expense Apllication
+Expense Application
