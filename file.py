@@ -12,7 +12,6 @@ def save_expenses(expenses, filename):
   except OSError:
     print("Unable to save the file.")
 
-
 def load_expenses(filename):
   try:
     with open(filename, "r", encoding="utf-8") as file:
