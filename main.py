@@ -7,7 +7,7 @@ from expensefiltter import filter_expenses
 expenses = []
 
 while True:
-    print("\n==== expense manager ====")
+    print("\n= expense manager =")
     print("1. add expense")
     print("2. view expenses")
     print("3. save expenses")
